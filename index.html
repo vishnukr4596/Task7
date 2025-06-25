@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student CGPA Table</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #2980b9;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Student Academic Report</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Name</th>
+      <th rowspan="2">Registration No</th>
+      <th colspan="2">CGPA</th>
+    </tr>
+    <tr>
+      <th>Sem 1-4</th>
+      <th>Sem 5-8</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amit Sharma</td>
+      <td>2021CSE001</td>
+      <td>8.2</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>Rahul Kumar</td>
+      <td>2021CSE002</td>
+      <td>8.7</td>
+      <td>8.9</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Rohit Kumar</td>
+      <td rowspan="2">2021CSE003</td>
+      <td>8.1</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <td colspan="2">Final CGPA: 8.3</td>
+    </tr>
+    <tr>
+      <td>Sneha Singh</td>
+      <td>2021CSE004</td>
+      <td>8.6</td>
+      <td>8.8</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
